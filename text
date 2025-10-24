@@ -1,0 +1,8 @@
+javac -cp ".;lib/sqlite-jdbc-3.50.3.0.jar" *.java
+java -cp ".;lib/sqlite-jdbc-3.50.3.0.jar" Server
+java -cp ".;lib/sqlite-jdbc-3.50.3.0.jar" Client
+javac -cp ".;lib/sqlite-jdbc-3.50.3.0.jar" ViewMessages.java
+java -cp ".;lib/sqlite-jdbc-3.50.3.0.jar" ViewMessages
+
+javac -cp ".;lib/sqlite-jdbc-3.50.3.0.jar" DatabaseViewer.java
+java -cp ".;lib/sqlite-jdbc-3.50.3.0.jar" DatabaseViewer
